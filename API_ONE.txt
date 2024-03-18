@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
 
 app.post(url, (req, res) => {
     try {
-        res.status(200).json({
+        return res.status(200).json({
           "name": "Himanshu Sharma", 
           "email": "himanshu0619.be21@chitkara.edu.in",
           "rollNumber": 2110990619, 
